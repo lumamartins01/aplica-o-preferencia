@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mapaBox iframe{
+    width: 25%;
+    height: 25%;
+}
+
+.card{
+    background-color: #fbfde2aa;
+    width: 220px;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 5px 6px 13px
+    
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px;
+    transition: 1s;
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}

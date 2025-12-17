@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+    background-color: #f6e3e3;
+   
+}
+
+.card{
+    background-color: #f9fdbdaa;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 5px 6px 13px
+    
+}
+
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;  
+      color: #460101aa;
+
+}
+
+.card button {
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: black;
+}
+.mapaBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #fff
+}
